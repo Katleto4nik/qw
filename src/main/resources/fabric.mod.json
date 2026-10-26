@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "weboptimizer",
+  "version": "${version}",
+  "name": "WebOptimizer",
+  "description": "",
+  "authors": [
+    "GAB_DAB2025"
+  ],
+  "license": "MIT",
+  "icon": "assets/weboptimizer/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.gabdab.weboptimizer.WebOptimizerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
